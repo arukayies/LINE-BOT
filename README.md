@@ -4,7 +4,7 @@
 
 # DEMO
 
-[<img src="https://pbs.twimg.com/ext_tw_video_thumb/1256585563278209024/pu/img/APzTRe70ogdoZMhO.jpg" width=50%>](https://video.twimg.com/ext_tw_video/1264171601798459392/pu/vid/320x568/XKbvStx83Cd4Hsim.mp4)
+[<img src="https://pbs.twimg.com/media/EZB7aStUEAAApa_?format=jpg&name=900x900" width=50%>](https://video.twimg.com/ext_tw_video/1265646860061995009/pu/vid/720x1280/3VxyY1zeysC0Bx5c.mp4)
 
 # Usage
 
@@ -23,4 +23,4 @@ https://arukayies.com/gas/line_bot/shopping-list-post
 
 Enjoy LINE BOT!
 
-Thank you!
+Thank you !
