@@ -8,7 +8,7 @@
 
 # Usage
 
-Click Here For More Info!
+Click Here For More Info !
 
 https://arukayies.com/gas/line_bot/shopping-list-post
 
@@ -21,6 +21,6 @@ https://arukayies.com/gas/line_bot/shopping-list-post
 
 "shopping-list-bot" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
 
-Enjoy LINE BOT!
+Enjoy LINE BOT !
 
 Thank you !
