@@ -4,7 +4,7 @@
 
 # DEMO
 
-[![thumbnail](https://pbs.twimg.com/ext_tw_video_thumb/1256585563278209024/pu/img/APzTRe70ogdoZMhO.jpg)](https://video.twimg.com/ext_tw_video/1264171601798459392/pu/vid/720x1280/XKbvStx83Cd4Hsim.mp4)
+[<img src="https://pbs.twimg.com/ext_tw_video_thumb/1256585563278209024/pu/img/APzTRe70ogdoZMhO.jpg" width=50%>](https://video.twimg.com/ext_tw_video/1264171601798459392/pu/vid/320x568/XKbvStx83Cd4Hsim.mp4)
 
 # Usage
 
