@@ -21,6 +21,6 @@ https://arukayies.com/gas/line_bot/shopping-list-post
 
 "shopping-list-bot" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
 
-Enjoy LINE BOT !
+Enjoy GAS !
 
 Thank you !
