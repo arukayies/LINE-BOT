@@ -10,7 +10,7 @@
 
 Click Here For More Info !
 
-https://arukayies.com/gas/line_bot/shopping-list-post
+https://arukayies.com/gas/shopping-list-post-v2
 
 # Author
 
