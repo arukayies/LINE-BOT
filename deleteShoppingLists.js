@@ -31,29 +31,6 @@ function deleteShoppingLists(to) {
     return pushLine(lineMessageObject, to);
     /* 買い物リストがある場合 */
   } else {
-    /* 買い物リストが10件以上ある場合 */
-    if (ArrayLists.length >= 10) {
-      /* 10件ずつカルーセルテンプレートで送信する */
-      let page = 0,
-        newArrayLists = [],
-        no = 0;
-      for (page; page < Math.floor(ArrayLists.length / 10); page++) {
-        for (no; no < 10 + page * 10; no++) {
-          newArrayLists.push(ArrayLists[no]);
-        }
-        pushLine(createCarousels(newArrayLists), to)
-        newArrayLists = [];
-      }
-      /* 10件で割った余りをカルーセルテンプレートで送信する */
-      newArrayLists = [];
-      no = page * 10;
-      for (no; no < ArrayLists.length; no++) {
-        newArrayLists.push(ArrayLists[no]);
-      }
-      pushLine(createCarousels(newArrayLists), to);
-      /* 買い物リストが10件より少ない場合 */
-    } else {
-      pushLine(createCarousels(ArrayLists), to);
-    }
+    pushLine(createContents(ArrayLists), to);
   }
 }
