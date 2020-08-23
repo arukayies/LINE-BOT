@@ -44,8 +44,13 @@ function getMessage(event) {
         if (CONF == 1) {
           /* 設定値を0にする */
           prop.setProperty("CONF", 0);
+          /* 空文字は削除する */
+          let shoppingLists = event.message.text.split(/\n/);
+          shoppingLists = shoppingLists.filter(function (x) {
+            return !(x === null || x === undefined || x === "");
+          })
           /* 買い物リストを追加する */
-          prop.setProperty("LIST", prop.getProperty("LIST") + "," + event.message.text.split(/\n/).join(","));
+          prop.setProperty("LIST", prop.getProperty("LIST") + "," + shoppingLists.join(","));
           const lineMessageObject = [
             {
               type: "text",
