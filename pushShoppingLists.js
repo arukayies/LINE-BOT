@@ -17,6 +17,8 @@ function pushShoppingLists(to) {
   const stringLists = prop.getProperty("LIST");
   /* 買い物リストの文字列を配列に変換して取得 */
   const ArrayLists = stringLists.split(",");
+  /* 先頭の『初期値』は削除する */
+  ArrayLists.shift();
 
   /* 買い物リストが空の場合 */
   if (stringLists == "初期値") {
@@ -29,18 +31,6 @@ function pushShoppingLists(to) {
     return pushLine(lineMessageObject, to);
     /* 買い物リストがある場合 */
   } else {
-    let message = "買い物リストを表示します。\n";
-    for (let i in ArrayLists) {
-      if (ArrayLists[i] != "初期値") {
-        message += "・" + ArrayLists[i] + "\n";
-      }
-    }
-    let lineMessageObject = [
-      {
-        type: "text",
-        text: message
-      }
-    ];
-    return pushLine(lineMessageObject, to);
+    return pushLine(createContents(ArrayLists, "買い物リスト", "primary"), to);
   }
 }

@@ -4,11 +4,12 @@
 
 引数
  shoppingLists  買い物リストの配列
+ message リストのタイトルメッセージ
 
 戻り値
  lineMessageObjecを返す
 ———————————–*/
-function createContents(shoppingLists) {
+function createContents(shoppingLists, message, button_type) {
   let contents = [];
 
   /* 買い物リストのカルーセルを組み立てる */
@@ -22,7 +23,7 @@ function createContents(shoppingLists) {
           "label": shoppingLists[i],
           "data": "delete=" + shoppingLists[i]
         },
-        "style": "primary",
+        "style": button_type,//買い物リストを表示するときprimary、削除するときは灰色のボタンsecondary
         "height": "sm"
       });
     }
@@ -40,7 +41,7 @@ function createContents(shoppingLists) {
         "contents": [
           {
             "type": "text",
-            "text": "削除するリストをタップ",
+            "text": message,
             "weight": "bold",
             "size": "xl"
           }

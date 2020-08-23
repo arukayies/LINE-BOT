@@ -31,6 +31,6 @@ function deleteShoppingLists(to) {
     return pushLine(lineMessageObject, to);
     /* 買い物リストがある場合 */
   } else {
-    pushLine(createContents(ArrayLists), to);
+    pushLine(createContents(ArrayLists, "削除する品名をタップ", "secondary"), to);
   }
 }
